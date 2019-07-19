@@ -1,39 +1,16 @@
 <html>
-<head>
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flipclock@0.7.8/compiled/flipclock.css">
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/flipclock@0.7.8/compiled/flipclock.js"></script>
-</head>
-<body>
-<style type="text/css">
-body {
-	margin: 0px;
-	background-color:#000;
-}
-html, body
-{
-  height: 100%;
-}
-	.flip-clock-divider .flip-clock-label{
-		color: #FFF;
-	}
-	.flip-clock-wrapper{
-		width: 50%;
-	}
-</style>
-<table width="100%" height="100%" border="0" align="center" cellpadding="0" cellspacing="0">
-  <tbody>
-    <tr>
-      <td align="center" valign="middle">
-      	<div class="clock" style="margin:2em;"></div>
-		<div class="message"></div>
-      </td>
-    </tr>
-  </tbody>
-</table>
+	<head>
+		<link rel="stylesheet" href="flipclock.css">
 
+		<script src="jquery.min.js"></script>
 
-<script type="text/javascript">
+		<script src="flipclock.js"></script>
+	</head>
+	<body>
+	<div class="clock" style="margin:2em;"></div>
+	<div class="message"></div>
+
+	<script type="text/javascript">
 		var clock;
 		
 		$(document).ready(function() {
@@ -55,5 +32,6 @@ html, body
 
 		});
 	</script>
-</body>
+	
+	</body>
 </html>
